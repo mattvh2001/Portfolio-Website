@@ -1,0 +1,11 @@
+.gradientBar3{
+    position: relative;
+    left:54%;
+    width:55%;
+    height:8px;
+    
+    height:6px;
+    border-radius: 3px 0px 0px 3px;
+    background: rgb(102,45,145);
+    background: linear-gradient(90deg, rgba(102,45,145,1) 10%, rgba(1,113,188,1) 85%);
+  }

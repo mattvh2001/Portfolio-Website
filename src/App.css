@@ -1,38 +1,79 @@
 .App {
-  text-align: center;
+  text-align: center; 
+}
+body{
+ 
+  background-color: #1e1e1e;
+  font-family: 'Montserrat',sans-serif;
+  color: #e2e2e2ee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-end;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.aboutMe{
+  padding:15% 35% 10% 5%;
+}
+h1{
+  font-size: 4rem;
+  font-weight: lighter;
+}
+h2{
+  font-size: 2.2rem;
+  font-weight: lighter;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  text-align: justify;
+  font-size: 1.1rem;
+}
+.why{
+  padding:5% 5% 10% 40%;
+}
+.blueSpan{
+  color: #0171BC;
+}
+.purpleSpan{
+  color: #662D91;
+}
+
+.gradientCircle1{
+  position:absolute;
+  top:0;
+  right:2%;
+  height: 53rem;
+  width:53rem;
+  background: rgb(1,102,188);
+  background: radial-gradient(circle, rgba(1,102,188,0.45) 10%, rgba(30,30,30,1) 70%); 
+  z-index: -1;
+}
+
+.gradientCircle2{
+  position:absolute;
+  border-radius: 50%;
+  top:100%;
+  left:1%;
+  height: 48rem;
+  width:48rem;
+  background: rgb(102,45,145);
+  background: radial-gradient(circle, rgba(102,45,145,0.55) 20%, rgba(30,30,30,1) 70%);
+  z-index: -1;
+ 
+}
+
+.gradientCircle3{
+  position:absolute;
+  
+  top:185%;
+  right:5%;
+  height: 48rem;
+  width:48rem;
+  background: rgb(1,102,188);
+  background: radial-gradient(circle, rgba(1,102,188,0.45) 10%, rgba(30,30,30,1) 72%);
+  z-index: -1;
+  
 }
